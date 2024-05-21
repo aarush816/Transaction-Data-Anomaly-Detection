@@ -6,6 +6,7 @@ This project involves generating synthetic transaction data for the month of Mar
 ## Data Generation
 
 generate_data_march1_30.ipynb
+
 This script generates synthetic data for each minute between 6:30 AM and 1:30 PM from March 1-30, 2024. The data includes:
 
 * timestamp: Unix timestamp for each minute.
@@ -18,11 +19,13 @@ This script generates synthetic data for each minute between 6:30 AM and 1:30 PM
 The trade and quote counts are consistent across different environments for the same timestamp, content name, and lineID.
 
 generate_data_march31.ipynb
+
 This script generates similar synthetic data for March 31, 2024. Additionally, some trade and quote counts are manually modified to introduce anomalies.
 
 ## Anomaly Detection:
 
 detect_anomalies.ipynb
+
 This script detects anomalies in the data generated for March 31, 2024. It:
 
 * Reads transactions_march31.csv.
