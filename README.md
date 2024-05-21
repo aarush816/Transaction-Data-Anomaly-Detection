@@ -41,36 +41,16 @@ Groups the data by lineID and checks for discrepancies in trade count and quote 
 Marks rows with anomalies.
 Exports the full dataset with anomaly markings to anomalies.csv.
 Extracts rows containing anomalies and saves them to anomaly_rows.csv.
-Usage
+* Usage:
 Generate Data for March 1-30, 2024:
 
-bash
-Copy code
-python generate_data_march1_30.py
-Generate Data for March 31, 2024:
-
-bash
-Copy code
-python generate_data_march31.py
 Detect Anomalies in March 31 Data:
 
-bash
-Copy code
-python detect_anomalies.py
-Files
-transactions_march.csv: Generated data for March 1-30, 2024.
-transactions_march31.csv: Generated data for March 31, 2024.
-anomalies.csv: Data for March 31, 2024, with anomalies marked.
-anomaly_rows.csv: Rows from March 31, 2024, containing anomalies.
 Dependencies
 pandas: For data manipulation and analysis.
-To install the required packages, use:
 
-bash
-Copy code
-pip install pandas
 Author
-[Your Name]
+Aarush Ambati
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
