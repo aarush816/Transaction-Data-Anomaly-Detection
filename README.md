@@ -14,7 +14,7 @@ Generated CSV files:
 * anomalies.csv: Full dataset for March 31, 2024, with anomalies marked.
 * anomaly_rows.csv: Only the rows from March 31, 2024, that contain anomalies.
 
-Data Generation
+Data Generation:
 
 generate_data_march1_30.py
 This script generates synthetic data for each minute between 6:30 AM and 1:30 PM from March 1-30, 2024. The data includes:
@@ -31,7 +31,8 @@ The trade and quote counts are consistent across different environments for the 
 generate_data_march31.py
 This script generates similar synthetic data for March 31, 2024. Additionally, some trade and quote counts are manually modified to introduce anomalies.
 
-Anomaly Detection
+Anomaly Detection:
+
 detect_anomalies.py
 This script detects anomalies in the data generated for March 31, 2024. It:
 
