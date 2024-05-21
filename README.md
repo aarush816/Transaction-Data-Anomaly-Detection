@@ -19,12 +19,13 @@ Data Generation
 generate_data_march1_30.py
 This script generates synthetic data for each minute between 6:30 AM and 1:30 PM from March 1-30, 2024. The data includes:
 
-timestamp: Unix timestamp for each minute.
-content name: One of onl, fut, otc, wth.
-environment: One of qa, pt, dr, pr.
-lineID: A unique identifier specific to each content name.
-trade count: Random integer between 0 and 50.
-quote count: Random integer between 0 and 50.
+* timestamp: Unix timestamp for each minute.
+* content name: One of onl, fut, otc, wth.
+* environment: One of qa, pt, dr, pr.
+* lineID: A unique identifier specific to each content name.
+* trade count: Random integer between 0 and 50.
+* quote count: Random integer between 0 and 50.
+  
 The trade and quote counts are consistent across different environments for the same timestamp, content name, and lineID.
 
 generate_data_march31.py
