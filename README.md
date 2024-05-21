@@ -4,10 +4,10 @@
 This project involves generating synthetic transaction data for the month of March 2024, identifying anomalies in the data, and exporting the results. The data represents different environments and content types, with trade and quote counts for each minute within specific time periods.
 
 ## Project Structure
-generate_data_march1_30.py: Script to generate synthetic transaction data for March 1-30, 2024.
-generate_data_march31.py: Script to generate synthetic transaction data for March 31, 2024, with some manually modified trade and quote counts.
-detect_anomalies.py: Script to detect anomalies in the transaction data for March 31, 2024.
-README.md: Documentation for the project.
+- generate_data_march1_30.ipynb: Script to generate synthetic transaction data for March 1-30, 2024.
+- generate_data_march31.ipynb: Script to generate synthetic transaction data for March 31, 2024, with some manually modified trade and quote counts.
+- detect_anomalies.py: Script to detect anomalies in the transaction data for March 31, 2024.
+
 Generated CSV files:
 transactions_march.csv: Data for March 1-30, 2024.
 transactions_march31.csv: Data for March 31, 2024.
