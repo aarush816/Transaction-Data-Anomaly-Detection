@@ -8,7 +8,7 @@ This project involves generating synthetic transaction data for the month of Mar
 - generate_data_march31.ipynb: Script to generate synthetic transaction data for March 31, 2024, with some manually modified trade and quote counts.
 - detect_anomalies.py: Script to detect anomalies in the transaction data for March 31, 2024.
 
-Generated CSV files:
+** Generated CSV files:
 transactions_march.csv: Data for March 1-30, 2024.
 transactions_march31.csv: Data for March 31, 2024.
 anomalies.csv: Full dataset for March 31, 2024, with anomalies marked.
