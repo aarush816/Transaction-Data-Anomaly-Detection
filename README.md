@@ -40,10 +40,19 @@ Generated CSV files:
 * anomaly_rows.csv: Only the rows from March 31, 2024, that contain anomalies.
 
 ## Dependencies
-pandas: For data manipulation and analysis.
 
-## Author
-Aarush Ambati
+The primary dependencies used in this project are:
+
+Python Standard Library:
+
+* random: For generating random trade and quote counts.
+* datetime: For handling date and time operations.
+* csv: For writing the generated data to CSV files.
+
+External Libraries:
+
+* pandas: For data manipulation and analysis, particularly for detecting anomalies and handling CSV files.
+
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
